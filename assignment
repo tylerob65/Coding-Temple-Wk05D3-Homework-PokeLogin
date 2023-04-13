@@ -1,0 +1,30 @@
+You will need to create the following:
+Inside of the blueprint folder for "authentication" (assuming the name is "authentication"):
+     - 2 routes: One for "signup" and one for "login"
+- 2 User Model with the basic infomation listed:
+- ID
+- First_name
+- Last_name
+- email
+- password
+- date_created
+- 2 Form with the following information:
+- email
+- password
+- submit_button
+- 1 .env file: to add your DATABASE_URL
+
+
+* Add signup and login to navbar
+* Decide shows in navbar when logged in vs not logged in
+* Make thing that requires people to be logged in
+
+
+When they are not logged in
+Want to show
+PokeStop - Login - Signup
+
+When logged in want to show
+Home - Poke Search - Sign Out
+
+when not logged in, home needs to redirect to login
